@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+.navbar-brand span {
+    color: orange;
+}
+
+.nav-item {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.nav-item a {
+    font-weight: bold;
+}
+
+.banner1 {
+    background-image: url("	https://travelwebiste.netlify.app/image/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffff;
+
+}
+
+.banner1 button {
+    background-color: #ffff;
+    font-weight: bold;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.banner1 h1 {
+    font-size: 70px;
+}
+
+.banner1 span {
+    color: orange;
+}
+
+.banner2 {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner2head h1 {
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.banner2head span {
+    color: orange;
+
+}
+
+.banner2img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner2img img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.cardform input,
+textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px grey;
+}
+
+input:focus {
+    outline: none;
+    /* outline-color: #ffa500; */
+    border: 3px solid #ffa500;
+
+}
+
+textarea:focus {
+    outline: none;
+    /* outline-color: #ffa500; */
+    border: 3px solid #ffa500;
+
+}
+
+.cardform button {
+    font-size: 20px;
+    background-color: #ffa500;
+    border: 1px solid #ffa500;
+    color: #ffff;
+    width: 150px;
+    box-shadow: 1px 1px 2px gray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cardform button:hover {
+    background-color: white;
+    color: black;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    margin: 10px;
+}
+
+.banner4head {
+    text-align: center;
+    margin: 20px;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.banner4head span {
+    color: #ffa500;
+}
+
+.banner4para {
+    padding: 10px;
+}
+
+#banner4icon {
+    color: #ffa500;
+}
+
+.banner4para h1 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.banner4para button {
+    width: 100px;
+    padding: 5px;
+    background-color: #ffa500;
+    color: #fff;
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+}
+.banner5head{
+    text-align: center;
+    margin: 20px;
+    text-shadow: 1px 1px 2px gray;
+    font-weight: bolder;
+}
+.banner5head span{ 
+    color: #ffa500;
+}
+.banner5card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+}
+.banner5card i{
+    font-size: 100px;
+    color: #ffa500;
+}
+.banner6{
+    background-color: #f9f9f9;
+}
+.banner6img img{
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px gray;
+}
+.banner6para{
+    padding: 10px;
+}
+.banner6btn{
+    width: 200px;
+    padding: 5px;
+    background-color: #ffa500;
+    color: #fff;
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+}
+.footer {
+    margin-top: 20px;
+    background: #111;
+    color: white;
+    text-align: left;
+  }
+  
+  .footer h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f9a825;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #f9a825;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 22px;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #f9a825;
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+    .banner2img img {
+        margin-bottom: 10px;
+    }
+    .banner5card {
+        text-align: center;
+      }
+      .banner5card i {
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+      .footer {
+        text-align: center;
+      }
+}
+
+/* @media only screen and (max-width:400px){
+    .card{
+        width: 300px;
+    }
+} */

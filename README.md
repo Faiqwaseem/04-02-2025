@@ -1,4 +1,4 @@
 #Assignment
 
 
-faiqtravel.netlify.app
+https://faiqtravel.netlify.app/
